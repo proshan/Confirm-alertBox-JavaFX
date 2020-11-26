@@ -33,9 +33,6 @@ public class Main extends Application{
             closeProgram();
         });
 
-        public void nothing(){
-            //does nothing;
-        }
         button = new Button();
         button.setText("Close");
 
