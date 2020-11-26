@@ -23,7 +23,7 @@ public class Main extends Application{
     public static void main(String[] args) {
         launch(args);
     }
-    //comments added 
+    //comments added
     @Override
     public void start(Stage primaryStage) throws Exception{
         window = primaryStage;
@@ -32,6 +32,10 @@ public class Main extends Application{
             e.consume();
             closeProgram();
         });
+
+        public void nothing(){
+            //does nothing;
+        }
         button = new Button();
         button.setText("Close");
 
